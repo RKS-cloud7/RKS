@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog - Royal Thali</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="css/blog.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Royal Thali</a>
+  </div>
+</nav>
+
+<!-- BLOG SECTION -->
+<div class="container my-5">
+  <div class="text-center mb-5">
+    <p class="text-primary fw-semibold mb-2">From the kitchen</p>
+    <h1 class="display-6 mb-3">Our Blog</h1>
+    <p class="text-muted">Discover recipes, spice tips, and authentic food stories made with love.</p>
+  </div>
+
+  <!-- FEATURED ARTICLE -->
+  <div class="featured-article mb-5">
+    <div class="featured-content">
+      <span class="featured-badge">Featured</span>
+      <h2>The Art of Spice Blending in Indian Cuisine</h2>
+      <p>Learn the secrets behind the perfect spice blend that makes authentic Indian food so irresistible. From tempering techniques to flavor combinations, master the craft.</p>
+      <a href="#" class="btn btn-primary">Read Full Article</a>
+    </div>
+    <div class="featured-image">
+      <img src="images/food1.jpg" alt="Featured Article">
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <article class="card h-100 shadow-sm">
+        <img src="images/food1.jpg" class="card-img-top" alt="Best Indian Dishes">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Best Indian Dishes</h5>
+          <p class="card-text">Explore the most loved dishes in Indian cuisine with tips on flavor and presentation.</p>
+          <div class="mt-auto">
+            <a href="#" class="btn btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="col">
+      <article class="card h-100 shadow-sm">
+        <img src="images/food2.jpg" class="card-img-top" alt="Spices Guide">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Spices Guide</h5>
+          <p class="card-text">Learn about Indian spices and their flavors, and how to use them in your kitchen.</p>
+          <div class="mt-auto">
+            <a href="#" class="btn btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="col">
+      <article class="card h-100 shadow-sm">
+        <img src="images/food3.jpg" class="card-img-top" alt="Healthy Eating">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Healthy Eating</h5>
+          <p class="card-text">Get tips for a balanced Indian diet that still keeps your meals rich and satisfying.</p>
+          <div class="mt-auto">
+            <a href="#" class="btn btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
+
+<!-- NEWSLETTER SECTION -->
+<section class="newsletter-section">
+  <div class="container">
+    <div class="newsletter-content">
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Get exclusive recipes, cooking tips, and special offers delivered to your inbox</p>
+      <form id="newsletter-form" class="newsletter-form">
+        <input type="email" placeholder="Enter your email address" id="newsletter-email" required>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+      <div id="newsletter-message" class="newsletter-message" style="display:none;"></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <!-- About Section -->
+            <div class="footer-section">
+                <h3>About Royal Thali</h3>
+                <p>Experience the authentic flavors of Indian royal cuisine with our master chefs. Every dish is crafted with precision, passion, and the finest ingredients since 2015.</p>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Our Menu</a></li>
+                    <li><a href="reservation.html">Make Reservation</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <div class="footer-contact-item">
+                    <strong>📍 Address</strong>
+                    <p>5 Wrights Avenue<br>CM77 8JG, Cressing<br>United Kingdom</p>
+                </div>
+                <div class="footer-contact-item">
+                    <strong>📞 Phone</strong>
+                    <p><a href="tel:+447836214437">+44 (0)7836 214437</a></p>
+                    <p><a href="tel:+447833975385">+44 (0)7833 975385</a></p>
+                </div>
+                <div class="footer-contact-item">
+                    <strong>✉️ Email</strong>
+                    <p><a href="mailto:info@royalthali.com">info@royalthali.com</a></p>
+                </div>
+            </div>
+
+            <!-- Hours -->
+            <div class="footer-section">
+                <h3>Opening Hours</h3>
+                <p><strong>Monday - Thursday:</strong><br>12:00 PM - 11:00 PM</p>
+                <p><strong>Friday - Saturday:</strong><br>12:00 PM - 12:00 AM</p>
+                <p><strong>Sunday:</strong><br>12:00 PM - 10:00 PM</p>
+            </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Royal Thali Restaurant. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="contact.html">Contact Support</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
